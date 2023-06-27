@@ -1,0 +1,50 @@
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Page</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <address>
+        Business Location: 123 Main St, City, Country<br>
+        Phone: <a href="tel:+1234567890">+1 (234) 567-890</a><br>
+        Email: <a href="mailto:info@example.com">info@example.com</a>
+    </address>
+    <table>
+        <tr>
+            <th>Company Information</th>
+        </tr>
+        <tr>
+            <td>Open Hours</td>
+            <td>Monday to Friday: 9 AM - 5 PM</td>
+        </tr>
+        <tr>
+            <td>International Phone Numbers</td>
+            <td>
+                Country A: +123456789<br>
+                Country B: +987654321<br>
+                Country C: +246813579
+            </td>
+        </tr>
+        <tr>
+            <td>Employee Contacts</td>
+            <td>
+                John Doe: <a href="tel:+1122334455">+1 (122) 334-455</a><br>
+                Jane Smith: <a href="tel:+9988776655">+1 (998) 877-6655</a>
+            </td>
+        </tr>
+    </table>
+    <form action="/submit-form" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+
+   <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
